@@ -1,36 +1,5 @@
-// Assignment 2, Code Fellows, JavaScript
-// xor.js
 
-// Implement an exclusive OR function called `preferredName` that has the following interface:
- 
-//var FirstName,
-    //LastName;
- 
-//preferredName(FirstName, LastName);
-// -> false
- 
-//FirstName = 'Hank';
- 
-//preferredName(FirstName, LastName);
-// -> 'Hank'
- 
-//LastName = 'Yates';
- 
-//preferredName(FirstName, LastName);
-// -> false
- 
-//FirstName = '';
- 
-//preferredName(FirstName, LastName);
-// -> 'Yates'
-
-//1. If FirstName AND LastName, return false
-//2. If no FirstName AND no LastName, return false
-//3. If FirstName and no LastName, return FirstName
-//4. If no FirstName and LastName, return LastName
-
-//Revised below after looking at several other students' xor.js files, it was much simpler than I anticipated:
-
+//Removing all other text except the actual functions per Hank's comment
 
 function preferredName (FirstName, LastName) {
        if ((FirstName && LastName) || (!FirstName && !LastName)) {

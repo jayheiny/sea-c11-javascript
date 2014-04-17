@@ -34,18 +34,20 @@
 
 function preferredName (FirstName, LastName) {
        if ((FirstName && LastName) || (!FirstName && !LastName)) {
-            return false;
+       		return false;
        } else {
-		   return (FirstName || LastName);
-}
+		return (FirstName || LastName);
+	}
 }
 
 //I could also write:
 
 var preferredName = function(FirstName, LastName) {
-  if ((FirstName && !LastName) || (!FirstName && LastName)) { 
-    return (FirstName || LastName); }
-  else return false;
+  	if ((FirstName && !LastName) || (!FirstName && LastName)) { 
+  		return (FirstName || LastName); }
+  	else {
+  		return false;
+	}	
 };
 
 //Finally, this is closer to what I was trying initially, minus the equal signs:
